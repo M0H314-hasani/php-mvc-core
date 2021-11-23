@@ -5,16 +5,16 @@
  * Time: 8:09 AM
  */
 
-namespace thecodeholic\phpmvc\db;
+namespace Phpmvc\Core\db;
 
 
-use thecodeholic\phpmvc\Application;
+use Phpmvc\Core\Application;
 
 /**
  * Class Database
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package thecodeholic\phpmvc
+ * @package Phpmvc\Core
  */
 class Database
 {

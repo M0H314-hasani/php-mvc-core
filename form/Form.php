@@ -5,10 +5,10 @@
  * Time: 7:05 AM
  */
 
-namespace thecodeholic\phpmvc\form;
+namespace Phpmvc\Core\form;
 
 
-use thecodeholic\phpmvc\Model;
+use Phpmvc\Core\Model;
 
 /**
  * Class Form

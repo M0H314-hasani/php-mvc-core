@@ -5,14 +5,14 @@
  * Time: 8:43 AM
  */
 
-namespace thecodeholic\phpmvc;
+namespace Phpmvc\Core;
 
-use thecodeholic\phpmvc\middlewares\BaseMiddleware;
+use Phpmvc\Core\Middlewares\BaseMiddleware;
 /**
  * Class Controller
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package thecodeholic\phpmvc
+ * @package Phpmvc\Core
  */
 class Controller
 {
@@ -20,7 +20,7 @@ class Controller
     public string $action = '';
 
     /**
-     * @var \thecodeholic\phpmvc\BaseMiddleware[]
+     * @var \Phpmvc\Core\BaseMiddleware[]
      */
     protected array $middlewares = [];
 
@@ -40,7 +40,7 @@ class Controller
     }
 
     /**
-     * @return \thecodeholic\phpmvc\middlewares\BaseMiddleware[]
+     * @return \Phpmvc\Core\Middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {

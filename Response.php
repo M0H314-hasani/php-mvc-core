@@ -5,14 +5,14 @@
  * Time: 10:53 AM
  */
 
-namespace thecodeholic\phpmvc;
+namespace Phpmvc\Core;
 
 
 /**
  * Class Response
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package thecodeholic\phpmvc
+ * @package Phpmvc\Core
  */
 class Response
 {

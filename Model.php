@@ -5,14 +5,14 @@
  * Time: 9:16 AM
  */
 
-namespace thecodeholic\phpmvc;
+namespace Phpmvc\Core;
 
 
 /**
  * Class Model
  *
  * @author  Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package thecodeholic\phpmvc
+ * @package Phpmvc\Core
  */
 class Model
 {
