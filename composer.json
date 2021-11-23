@@ -1,15 +1,14 @@
 {
-    "name": "thecodeholic/php-mvc-core",
+    "name": "m0h314-hasani/php-mvc-core",
     "authors": [
         {
-            "name": "Zura Sekhniashvili",
-            "email": "zurasekhniashvili@gmail.com"
+            "name": "Mohsen Hasani",
+            "email": "m0h314.hasani@gmail.com"
         }
     ],
-    "require": {},
     "autoload": {
         "psr-4": {
-            "thecodeholic\\phpmvc\\": "."
+            "Phpmvc\\Core": "."
         }
     }
 }
