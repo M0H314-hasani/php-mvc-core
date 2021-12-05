@@ -1,0 +1,16 @@
+{
+    "name": "php-mvc-core/logger",
+    "description": "Logger lib",
+    "require": {
+        "psr/log": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpMvcCore\\Core\\Logger\\": ""
+        }
+    },
+    "authors": [{
+        "name": "M0h314-hasani",
+        "email": "m0h314.hasani@gmail.com"
+    }]
+}

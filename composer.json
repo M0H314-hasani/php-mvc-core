@@ -9,7 +9,14 @@
             "Phpmvc\\Core\\": "src"
         }
     },
+    "repositories": [{
+        "type": "path",
+        "url": "./src/Logger"
+    }],
     "require-dev": {
         "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "php-mvc-core/logger": "dev-master"
     }
 }
