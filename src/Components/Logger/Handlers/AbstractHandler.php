@@ -1,8 +1,8 @@
 <?php
 
-namespace Phpmvc\Core\Logger\Handlers;
+namespace Phpmvc\Core\Components\Logger\Handlers;
 
-use Phpmvc\Core\Logger\Formatters\FormatterTrait;
+use Phpmvc\Core\Components\Logger\Formatters\FormatterTrait;
 
 abstract class AbstractHandler
 {

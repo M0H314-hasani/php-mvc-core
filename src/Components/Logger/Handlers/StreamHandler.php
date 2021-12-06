@@ -1,6 +1,6 @@
 <?php
 
-namespace Phpmvc\Core\Logger\Handlers;
+namespace Phpmvc\Core\Components\Logger\Handlers;
 
 class StreamHandler extends AbstractHandler
 {

@@ -11,7 +11,7 @@
     },
     "repositories": [{
         "type": "path",
-        "url": "./src/Logger"
+        "url": "./src/Components/Logger"
     }],
     "require-dev": {
         "phpunit/phpunit": "^9.5"
