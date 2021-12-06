@@ -1,7 +1,6 @@
 <?php
 
 use Phpmvc\Core\Components\Logger\Formatters\DefaultFormatter;
-use Phpmvc\Core\Components\Logger\Formatters\JsonFormatter;
 use Phpmvc\Core\Components\Logger\Handlers\StreamHandler;
 use Phpmvc\Core\Components\Logger\Logger;
 use PHPUnit\Framework\TestCase;
