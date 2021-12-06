@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Phpmvc\Core\Logger\Formatters;
+namespace Phpmvc\Core\Components\Logger\Formatters;
 
 
 trait FormatterTrait

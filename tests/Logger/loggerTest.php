@@ -1,9 +1,9 @@
 <?php
 
-use Phpmvc\Core\Logger\Formatters\DefaultFormatter;
-use Phpmvc\Core\Logger\Formatters\JsonFormatter;
-use Phpmvc\Core\Logger\Handlers\StreamHandler;
-use Phpmvc\Core\Logger\Logger;
+use Phpmvc\Core\Components\Logger\Formatters\DefaultFormatter;
+use Phpmvc\Core\Components\Logger\Formatters\JsonFormatter;
+use Phpmvc\Core\Components\Logger\Handlers\StreamHandler;
+use Phpmvc\Core\Components\Logger\Logger;
 use PHPUnit\Framework\TestCase;
 
 class LoggerTest extends TestCase

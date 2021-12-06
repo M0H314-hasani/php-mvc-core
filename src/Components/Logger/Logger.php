@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Phpmvc\Core\Logger;
+namespace Phpmvc\Core\Components\Logger;
 
 use DateTimeImmutable;
 use DateTimeZone;
 use Exception;
-use Phpmvc\Core\Logger\Handlers\AbstractHandler;
-use Phpmvc\Core\Logger\Handlers\HandlerInterface;
+use Phpmvc\Core\Components\Logger\Handlers\AbstractHandler;
+use Phpmvc\Core\Components\Logger\Handlers\HandlerInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\LogLevel;
 use Stringable;
